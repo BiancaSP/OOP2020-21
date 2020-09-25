@@ -14,4 +14,5 @@ class FirstLab:
 fl = FirstLab()
 
 # uncomment the following line, play with it
-# print("I can print anywhere I like")
+
+print("I can print anywhere I like")
