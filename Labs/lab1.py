@@ -5,6 +5,7 @@
 # Code for Lab 1: first steps
 # task: run this code, play with it,
 # do you understand what happens?
+from self import self
 
 
 class FirstLab:
@@ -15,6 +16,15 @@ class FirstLab:
         print("I can print anywhere I like")
 
 
+# noinspection PyMethodMayBeStatic
+class MyClass:
+    @staticmethod
+    def SayHello():
+        print("Hello there!")
+
+
+MyClass.SayHello()
 fl = FirstLab()
+
 
 # uncomment the following line, play with it
