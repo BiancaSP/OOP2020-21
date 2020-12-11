@@ -15,10 +15,13 @@ class Types_and_Strings:
 
         #
         # Enter your own print statements below:
+        print("1: " + message[0] + "  2: " + message[-1])
         #
 
         # print only first and last of the sentence:
+        result = slice(3)
 
+        print(message[result])
 
         # use slice notation:
 
